@@ -1,8 +1,13 @@
 {
-    // Enable ESlint flat config support
-    "eslint.experimental.useFlatConfig": true,
-    "cSpell.words": [
-      "Nuxt"
-    ]
+  // Enable ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  "cSpell.words": ["Nuxt"],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
   }
-  
+}
